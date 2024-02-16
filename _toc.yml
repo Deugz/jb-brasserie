@@ -1,0 +1,93 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts: 
+  - caption: 💡 Introduction
+    chapters: 
+    - file: Intro/Site/Site_Main
+    - file: Intro/Tableau-de-bord
+      sections:
+      - file: Intro/Site/Comment
+      - file: Intro/Site/Pourquoi    
+  - caption: 📃 L`Asso
+    chapters: 
+    - file: Asso/Asso_Main
+      sections:
+      - file: Asso/Statuts/Statuts_Main
+      - file: Asso/Histoire/Histoire
+    - file: Asso/Membres/Membres_Main
+      sections:
+      - file: Asso/Membres/Elus
+        sections:
+        - file: Asso/Membres/Bureau/Alex/Alex
+        - file: Asso/Membres/Bureau/Jimi/Jimi
+        - file: Asso/Membres/Bureau/Paulo/Paulo        
+        - file: Asso/Membres/Bureau/Vince/Vince
+      - file: Asso/Membres/Adhérents
+      - file: Asso/Membres/Rejoins
+    - file: Asso/Reunions/Reunions_main
+      sections:
+      - file: Asso/Reunions/Compte-Rendus/Date1
+  - caption: 💪 Le Brassage
+    chapters:  
+    - file: Brassage/Brassage_Main
+      sections:
+      - file: Brassage/Outils/Planning-Brass
+    - file: Brassage/Ingredients/Ingredients
+      sections:
+      - file: Brassage/Ingredients/Stock-ingredients
+    - file: Brassage/Procedure/Procedure_main
+      sections:
+      - file: Brassage/Procedure/Preparation/Preparation_Main
+      - file: Brassage/Procedure/Brassage/Brassage_Main
+        sections:
+        - file: Brassage/Procedure/Brassage/Empatage
+        - file: Brassage/Procedure/Brassage/Ebullition
+        - file: Brassage/Procedure/Brassage/Refroidissement
+        - file: Brassage/Procedure/Brassage/Fermentation-primaire
+      - file: Brassage/Procedure/Embouteillage/Embouteillage_Main
+        sections:
+        - file: Brassage/Procedure/Embouteillage/Lavage-bouteilles
+        - file: Brassage/Procedure/Embouteillage/Preparation
+        - file: Brassage/Procedure/Embouteillage/Sucrage
+        - file: Brassage/Procedure/Embouteillage/Embouteillage
+        - file: Brassage/Procedure/Embouteillage/Nettoyage-Rangement
+    - file: Brassage/Outils/Outils
+      sections:
+      - file: Brassage/Outils/Tracabilite-Brassage
+      - file: Brassage/Outils/Cout-Revient
+    - file: Brassage/Tutos/Tuto_Main
+      sections:
+      - file: Brassage/Tutos/Tuto1
+  - caption: 🍺 Les Bières
+    chapters:
+    - file: Les_Bieres/Liste/Varietes
+      sections:
+      - file: Les_Bieres/Liste/PremiEyre/PremiEyre
+      - file: Les_Bieres/Liste/DeglinguEyre/DeglinguEyre
+      - file: Les_Bieres/Liste/AmEyre/AmEyre
+      - file: Les_Bieres/Liste/MusicalEyre/MusicalEyre
+      - file: Les_Bieres/Liste/NeipalEyre/NeipalEyre
+      - file: Les_Bieres/Liste/PeuchEyre/PeuchEyre
+      - file: Les_Bieres/Liste/SanginEyre/SanginEyre
+      - file: Les_Bieres/Liste/Triple-Rouste/Triple-Rouste
+    - file: Les_Bieres/Magasin-bieres
+      sections:
+      - file: Les_Bieres/Commandes
+  - caption: 🎉 Les Evenements
+    chapters:
+    - file: Evenements/A-Venir/Event-futur
+      sections:
+      - file: Evenements/A-Venir/Fete-Brasserie/Fete-Brasserie
+    - file: Evenements/Passes/Passe
+      sections:
+      - file: Evenements/Passes/2024/2024_Main
+        sections:
+        - file: Evenements/Passes/2024/Travaux_Brass
+
+
+    
+
+

@@ -1,0 +1,721 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To include &#8212; PUBLI</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/coffee_cup.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/Cube.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/custom_style.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/CV_1.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/kittons.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/style_book_shell.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/style_flipping_card.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/style_wheel.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/.ipynb_checkpoints/custom_style-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/.ipynb_checkpoints/kittons-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/.ipynb_checkpoints/style_business_canvas-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/.ipynb_checkpoints/style_flipping_card-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/.ipynb_checkpoints/style_wheel-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/.ipynb_checkpoints/wheel_style-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script kind="utterances">
+
+    var commentsRunWhenDOMLoaded = cb => {
+    if (document.readyState != 'loading') {
+        cb()
+    } else if (document.addEventListener) {
+        document.addEventListener('DOMContentLoaded', cb)
+    } else {
+        document.attachEvent('onreadystatechange', function() {
+        if (document.readyState == 'complete') cb()
+        })
+    }
+}
+
+var addUtterances = () => {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "https://utteranc.es/client.js";
+    script.async = "async";
+
+    script.setAttribute("repo", "https://github.com/Deugz/nb-publi");
+    script.setAttribute("issue-term", "pathname");
+    script.setAttribute("theme", "github-light");
+    script.setAttribute("label", "💬 comment");
+    script.setAttribute("crossorigin", "anonymous");
+
+    sections = document.querySelectorAll("div.section");
+    if (sections !== null) {
+        section = sections[sections.length-1];
+        section.appendChild(script);
+    }
+}
+commentsRunWhenDOMLoaded(addUtterances);
+</script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'to-include';</script>
+    <link rel="canonical" href="https://deugz.github.io/nb-publi/_build/html/to-include.html" />
+    <link rel="shortcut icon" href="_static/logo_SFTP.png"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Pota’Jet" href="Jardin/Pota-jet.html" />
+    <link rel="prev" title="Zone à Protéger" href="intro.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo_SFTP.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="_static/logo_SFTP.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><ul class="navbar-icon-links navbar-nav"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://deugz.github.io/Encyclopedia-Home/build/html/index.html" title="Home" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-solid fa-house"></i></span>
+            <label class="sr-only">Home</label></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://deugz.github.io/nb-profile/_build/html/intro.html" title="Profile" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-solid fa-user"></i></span>
+            <label class="sr-only">Profile</label></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://deugz.github.io/ab-blog/_website/index.html" title="Blog" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-solid fa-blog"></i></span>
+            <label class="sr-only">Blog</label></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://deugz.github.io/nb-tools/_build/html/intro.html" title="Tools" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-solid fa-screwdriver-wrench"></i></span>
+            <label class="sr-only">Tools</label></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://deugz.github.io" title="Forum" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-solid fa-comments"></i></span>
+            <label class="sr-only">Forum</label></a>
+        </li>
+</ul></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">To include</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Le Jardin</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Jardin/Pota-jet.html">Pota’Jet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Jardin/Pot-2024.html">2024</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Brasserie</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Brasserie/Brasserie.html">Brasserie</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">La Musique</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Music/Musique.html">Musique</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/to-include.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>To include</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-source">Data source</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#litterature">Litterature</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#journaldao">JournalDAO</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#links-with-cryptocurrency">Links with cryptocurrency</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#blockchain-courses">Blockchain courses</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sustainable-dvpt-goals">Sustainable dvpt goals</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sdg-16">SDG 16</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#questions">Questions</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <div class="tex2jax_ignore mathjax_ignore section" id="to-include">
+<h1>To include<a class="headerlink" href="#to-include" title="Permalink to this heading">#</a></h1>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>Create section on Web 3.0 - history of the internet</p>
+<p>“In a matter of 30 years, the internet has grown 500-fold from a community of 10 million users in 1993 to over 5 billion users today. Unfortunately, the ascent of Web 2.0 has coincided with a departure from the ideals of creating a global network to transparently share information for the benefit of all users. With increasing traffic in Web 2.0, business models have steadily shifted away from providing services crafted for user needs and towards processing user data to generate advertising revenue. In effect, users themselves have become the “products” that are sold to corporate marketing departments.</p>
+<p>Journalism in Web 2.0 has followed a similar trajectory, where the appeal of advertising revenue has incentivized the distribution of “clickbait” instead of curated content. This has resulted in an emphasis on the quantity of information over the quality and the prioritization of attention-grabbing headlines in lieu of the stories themselves</p>
+<p class="last"><a class="reference external" href="https://www.blockchainlawsg.org/post/bringing-citizen-journalism-to-web3-a-spotlight-on-journodao" rel="noopener noreferrer" target="_blank">Source</a></p>
+</div>
+<div class="section" id="data-source">
+<h2>Data source<a class="headerlink" href="#data-source" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="https://datareportal.com/global-digital-overview" rel="noopener noreferrer" target="_blank">DataReportal – Global Digital Insights</a></li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Very good website with big presentation (good source of digital assets)</p>
+</div>
+</div>
+<div class="section" id="litterature">
+<h2>Litterature<a class="headerlink" href="#litterature" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="https://journals.sagepub.com/doi/10.1177/1464884915571298" rel="noopener noreferrer" target="_blank">Article</a>: Conversation through journalism: Searching for organizing principles of public and citizen journalism</li>
+<li><a class="reference external" href="https://journals.sagepub.com/doi/full/10.1177/2059436419836459" rel="noopener noreferrer" target="_blank">Article</a> - New perspectives on citizen journalism</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>Include in section How to:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://russgrayson-au.medium.com/5-enabling-tools-4debf728c653" rel="noopener noreferrer" target="_blank">Medium Blog post</a></li>
+<li><a class="reference external" href="https://www.theguardian.com/media/2014/jan/22/ten-tools-for-digital-and-citizen-journalists-on-the-go" rel="noopener noreferrer" target="_blank">Guardian</a></li>
+</ul>
+<p class="last">Mettre en lumière le fait que notre plateforme est faite pour héberger et mettre en remlation le contenue produit par les journalistes citoyens mais que ce n’est pas notre but a nous.</p>
+</div>
+<ul class="simple">
+<li><a class="reference external" href="https://citizenjournalistnow.com/index.php/2019/11/29/top-10-citizen-journalism-websites/" rel="noopener noreferrer" target="_blank">Top 10 citizen journalist ws 2019</a></li>
+<li><a class="reference external" href="https://www.ritimo.org/IMG/pdf/Mapping_Digital_Media-4.pdf" rel="noopener noreferrer" target="_blank">PDF</a> - CITIZEN JOURNALISM AND THE INTERNET</li>
+<li><a class="reference external" href="https://caluniv.ac.in/global-mdia-journal/COMMENT-2016-NOV/C2.pdf" rel="noopener noreferrer" target="_blank">CITIZEN JOURNALISM AND WEBLOGS</a></li>
+<li><a class="reference external" href="https://www.academia.edu/172313/Citizen_Journalism_Motivations_Methods_and_Momentum" rel="noopener noreferrer" target="_blank">THE FUTURE OF NEWS</a></li>
+</ul>
+</div>
+<div class="section" id="journaldao">
+<h2>JournalDAO<a class="headerlink" href="#journaldao" title="Permalink to this heading">#</a></h2>
+<p><strong>Decentralized Autonomous Organizations</strong> (“DAOs”)</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Insert in Web 3.0 section</p>
+</div>
+<ul class="simple">
+<li><a class="reference external" href="https://journodao.xyz/" rel="noopener noreferrer" target="_blank">Website</a></li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>Website written with <a class="reference external" href="https://ghost.org/" rel="noopener noreferrer" target="_blank">Ghost</a></p>
+<ul class="last simple">
+<li>Why that choice?</li>
+</ul>
+</div>
+<ul class="simple">
+<li><a class="reference external" href="https://www.youtube.com/&#64;journodao4681" rel="noopener noreferrer" target="_blank">Youtube channel</a></li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Need to explore, focus on America</p>
+</div>
+<ul class="simple">
+<li><a class="reference external" href="https://impactdaos.xyz/" rel="noopener noreferrer" target="_blank">ImpactDAO</a><ul>
+<li><a class="reference external" href="https://impactdaos.xyz/what-is-a-dao" rel="noopener noreferrer" target="_blank">DAO Tutorial</a></li>
+</ul>
+</li>
+<li><a class="reference external" href="https://blog.aragon.org/" rel="noopener noreferrer" target="_blank">Aragon’s blog</a><ul>
+<li><a class="reference external" href="https://blog.aragon.org/a-dao-defined-the-big-picture/" rel="noopener noreferrer" target="_blank">More DAO explanations</a></li>
+</ul>
+</li>
+</ul>
+<p><strong>Examples</strong>:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://www.fwb.help/" rel="noopener noreferrer" target="_blank">FWB</a></li>
+<li><a class="reference external" href="https://www.dorg.tech/" rel="noopener noreferrer" target="_blank">Dorg</a> quite cool</li>
+<li>Expand the list</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Lot’s of things to explore here !!</p>
+</div>
+<p><strong>To check</strong>:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://civil.co/" rel="noopener noreferrer" target="_blank">Civil.co</a></li>
+<li><a class="reference external" href="https://joincivil.com/" rel="noopener noreferrer" target="_blank">Joincivil</a></li>
+</ul>
+<p>Doesn’ exist anymore and merged with : <a class="reference external" href="https://consensys.io/" rel="noopener noreferrer" target="_blank">Consensys</a>, Company that offers different services related to Web 3.0 like for example:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://metamask.io/" rel="noopener noreferrer" target="_blank">Metamask</a> A crypto wallet &amp; gateway to blockchain apps</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Could be interesting for us but need to explore more before to make a decision</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">May be joining the discord channel of journal DAO can be a good idea to source information</p>
+</div>
+<ul class="simple">
+<li><a class="reference external" href="https://www.blockchain-council.org/dao/how-to-create-run-a-dao-a-comprehensive-guide/?gad=1&amp;gclid=Cj0KCQiAgK2qBhCHARIsAGACuzkwBxZj3M1nOdF1M8eljlp_HgkbYUeXoL9iDQYWWt8Nmes0r7JI-LcaAraSEALw_wcB" rel="noopener noreferrer" target="_blank">How to create DAO</a></li>
+</ul>
+<div class="section" id="links-with-cryptocurrency">
+<h3>Links with cryptocurrency<a class="headerlink" href="#links-with-cryptocurrency" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><a class="reference external" href="https://www.statista.com/statistics/1202503/global-cryptocurrency-user-base/" rel="noopener noreferrer" target="_blank">data</a></li>
+<li><a class="reference external" href="https://www.blockchainlawsg.org/post/bringing-citizen-journalism-to-web3-a-spotlight-on-journodao" rel="noopener noreferrer" target="_blank">Introduction article</a></li>
+</ul>
+<div class="section" id="blockchain-courses">
+<h4>Blockchain courses<a class="headerlink" href="#blockchain-courses" title="Permalink to this heading">#</a></h4>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>Create a blockchain section in Education and include:</p>
+<ul class="last simple">
+<li><a class="reference external" href="https://builtin.com/blockchain/create-your-own-blockchain" rel="noopener noreferrer" target="_blank">Tuto 1 - How to</a></li>
+<li><a class="reference external" href="https://builtin.com/blockchain" rel="noopener noreferrer" target="_blank">Tuto 0 - Basics</a><ul>
+<li>Good video to embed and keep looking (like coding a blockchain in javascript)</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="sustainable-dvpt-goals">
+<h2>Sustainable dvpt goals<a class="headerlink" href="#sustainable-dvpt-goals" title="Permalink to this heading">#</a></h2>
+<div class="section" id="sdg-16">
+<h3>SDG 16<a class="headerlink" href="#sdg-16" title="Permalink to this heading">#</a></h3>
+<p>SDG 16 not only recognizes the importance of obtaining information for achieving sustainable development, but it also promotes the protection of those producing it and calls for actions to consider the challenges they are facing. Media personnel, especially journalists and citizen journalists, are constantly looking for information, analyzing and distributing it. Thanks to their efforts, we can have the information needed to oversee achievement of the SDGs</p>
+</div>
+</div>
+<div class="section" id="questions">
+<h2>Questions<a class="headerlink" href="#questions" title="Permalink to this heading">#</a></h2>
+<div class="admonition important">
+<p class="first admonition-title">Important</p>
+<p class="last">What is the difference between Weblogs and blogs ?</p>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="intro.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Zone à Protéger</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="Jardin/Pota-jet.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Pota’Jet</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-source">Data source</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#litterature">Litterature</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#journaldao">JournalDAO</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#links-with-cryptocurrency">Links with cryptocurrency</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#blockchain-courses">Blockchain courses</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sustainable-dvpt-goals">Sustainable dvpt goals</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sdg-16">SDG 16</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#questions">Questions</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By <strong>Vincent Deguin</strong> (with ❤️)
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
