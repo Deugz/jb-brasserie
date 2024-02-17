@@ -7,10 +7,10 @@ parts:
   - caption: 💡 Introduction
     chapters: 
     - file: Intro/Site/Site_Main
-    - file: Intro/Tableau-de-bord
       sections:
       - file: Intro/Site/Comment
-      - file: Intro/Site/Pourquoi    
+      - file: Intro/Site/Pourquoi
+    - file: Intro/Tableau-de-bord
   - caption: 📃 L`Asso
     chapters: 
     - file: Asso/Asso_Main

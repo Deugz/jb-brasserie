@@ -62,28 +62,8 @@ sphinx:
     "icon_links": [
         {
             "name": "Home",
-            "url": "https://deugz.github.io/Encyclopedia-Home/build/html/index.html",
+            "url": "https://deugz.github.io/SP-ZAP/build/html/index.html",
             "icon": "fa-solid fa-house",
-        },
-        {
-            "name": "Profile",
-            "url": "https://deugz.github.io/nb-profile/_build/html/intro.html",
-            "icon": "fa-solid fa-user",
-        },
-        {
-            "name": "Blog",
-            "url": "https://deugz.github.io/ab-blog/_website/index.html",
-            "icon": "fa-solid fa-blog",
-        },
-        {
-            "name": "Tools",
-            "url": "https://deugz.github.io/nb-tools/_build/html/intro.html",
-            "icon": "fa-solid fa-screwdriver-wrench",
-        },
-        {
-            "name": "Forum",
-            "url": "https://deugz.github.io",
-            "icon": "fa-solid fa-comments",
         },
     ],
     
