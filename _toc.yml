@@ -60,7 +60,7 @@ parts:
       - file: Brassage/Outils/Cout-Revient
     - file: Brassage/Tutos/Tuto_Main
       sections:
-      - file: Brassage/Tutos/Tuto1
+      - file: Brassage/Tutos/Beer-styles/Beer-style
   - caption: 🍺 Les Bières
     chapters:
     - file: Les_Bieres/Liste/Varietes
@@ -86,6 +86,9 @@ parts:
       - file: Evenements/Passes/2024/2024_Main
         sections:
         - file: Evenements/Passes/2024/Travaux_Brass
+  - caption: Annexes
+    chapters:
+    - file: Annex/Cool-site
 
 
     

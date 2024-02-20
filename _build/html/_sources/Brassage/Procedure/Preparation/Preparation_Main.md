@@ -7,6 +7,15 @@
 En vérifiant bien la disponibilité des consommables (Malts, houblons, levures, gaz, bouteilles). Bien vérifier auprès des autres brasseurs ce qui va être utilisé lors des prochains brassins. Prévoir un achat de malt, houblon et/ou levures si les matières premières ne sont pas suffisantes (essayer de les coordonner pour englober plusieurs brassins dans une commande).
 Pour la gaz, vérifier qu’il reste suffisamment de gaz pour que les bouteilles puissent fonctionner durant la totalité du brassin (prévoir 2 fois 1/2 bouteille). Attention, la station Auchan pour le gaz n’est pas ouverte le dimanche. Pour les bouteilles voir ci dessous (paragraphe 3).
 
+```{admonition} Le saviez-vous ?
+:class: tip
+
+Tout les recettes de la brasserie Brewdog sont open-source et disponible sur le site suivant:
+- [brewdogrecipes.com](https://brewdogrecipes.com/)
+
+
+```
+
 
 ## Établir une date de brassage
 

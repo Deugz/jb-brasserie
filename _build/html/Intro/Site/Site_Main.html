@@ -282,7 +282,7 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../Brassage/Tutos/Tuto_Main.html">Tutos</a><input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-12"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../Brassage/Tutos/Tuto1.html">Tuto 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Brassage/Tutos/Beer-styles/Beer-style.html">Les “Styles” de Bière</a></li>
 </ul>
 </li>
 </ul>
@@ -317,6 +317,10 @@ const thebe_selector_output = ".output, .cell_output"
 </li>
 </ul>
 </li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Annexes</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../Annex/Cool-site.html">Sites sympas</a></li>
 </ul>
 
     </div>
@@ -440,7 +444,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -456,6 +462,21 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#un-outil-connecte">Un Outil Connécté</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#au-drive-de-la-brasserie">au Drive de la Brasserie</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a-un-ecocysteme-de-logiciels-libres">A un Ecocysteme de logiciels libres</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#lucidchart">LucidChart</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -467,6 +488,165 @@ document.write(`
                   
   <div class="tex2jax_ignore mathjax_ignore section" id="cette-documentation">
 <h1>Cette Documentation<a class="headerlink" href="#cette-documentation" title="Permalink to this heading">#</a></h1>
+<blockquote class="epigraph">
+<div>C’est le fruit de mes recherches pour imaginer des nouveaux moyens de collaborer et co-créer des espaces numériques a <strong>vocations pédagogiques</strong>. La production d’une telle ressource s’appuie sur deux outils principaux:</div></blockquote>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
+<div class="sd-col sd-d-flex-column sd-col-5 sd-col-xs-5 sd-col-sm-5 sd-col-md-5 sd-col-lg-5 docutils">
+<p class="rubric">Jupyter Book</p>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
+<div class="sd-col sd-d-flex-column sd-col-2 sd-col-xs-2 sd-col-sm-2 sd-col-md-2 sd-col-lg-2 docutils">
+</div>
+<div class="sd-col sd-d-flex-row sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../_images/logo_JB.png"><img alt="../../_images/logo_JB.png" class="align-center" src="../../_images/logo_JB.png" style="width: 100%;" /></a>
+</div>
+<a class="sd-stretched-link reference external" href="https://jupyterbook.org/en/stable/intro.html" rel="noopener noreferrer" target="_blank"></a></div>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-2 sd-col-xs-2 sd-col-sm-2 sd-col-md-2 sd-col-lg-2 docutils">
+</div>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-2 sd-col-xs-2 sd-col-sm-2 sd-col-md-2 sd-col-lg-2 docutils">
+</div>
+<div class="sd-col sd-d-flex-column sd-col-5 sd-col-xs-5 sd-col-sm-5 sd-col-md-5 sd-col-lg-5 docutils">
+<p class="rubric">Github</p>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
+<div class="sd-col sd-d-flex-column sd-col-2 sd-col-xs-2 sd-col-sm-2 sd-col-md-2 sd-col-lg-2 docutils">
+</div>
+<div class="sd-col sd-d-flex-row sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../_images/github-svgrepo-com.svg"><img alt="../../_images/github-svgrepo-com.svg" class="align-center" src="../../_images/github-svgrepo-com.svg" width="100%" /></a>
+</div>
+<a class="sd-stretched-link reference external" href="https://github.com/" rel="noopener noreferrer" target="_blank"></a></div>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-2 sd-col-xs-2 sd-col-sm-2 sd-col-md-2 sd-col-lg-2 docutils">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>JupyterBook me permet d’écrire des pages en <a class="reference external" href="https://fr.wikipedia.org/wiki/Markdown" rel="noopener noreferrer" target="_blank">Markdown</a>, et de les convertir  automatiquement en ficher <a class="reference external" href="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language" rel="noopener noreferrer" target="_blank">HTML</a>, ce qui résulte de manière assé simple et rapide en la création d’un site internet (avec un format standard de type documentation). Github me permet ensuite d’héberger le site gratuitement et de le rendre accessible grace a sa fonction <a class="reference external" href="https://pages.github.com/" rel="noopener noreferrer" target="_blank">Github Pages</a>. La combinaison de ces deux outils, gratuits et open-source, donne la possibilité a chaque individue (ou association) de construire, au fil de l’eau, un récit documentaire qui lui est propre, et de le partager avec le monde.</p>
+<div class="note dropdown admonition">
+<p class="first admonition-title">Petite parenthèse sur ma vision du projet et mes objectifs personnels</p>
+<p class="emphase">Salut, moi c'est Vince</p>
+<p>Ca me semblait bon de vous le dire puisque je m’exprimerai a la première première personne tout au long de cette ressource.</p>
+<ul class="simple">
+<li>Journalisme citoyen</li>
+</ul>
+<p class="last">Utiliser cet espace pour faire passer des liens vers les différentes partie du projet globale</p>
+</div>
+<p class="emphase"> Voyons un peu en quoi cet Objet peut <strong>Nous</strong> être <strong>Utile</strong></p>
+<div class="section" id="un-outil-connecte">
+<h2>Un Outil Connécté<a class="headerlink" href="#un-outil-connecte" title="Permalink to this heading">#</a></h2>
+<div class="section" id="au-drive-de-la-brasserie">
+<h3>au Drive de la Brasserie<a class="headerlink" href="#au-drive-de-la-brasserie" title="Permalink to this heading">#</a></h3>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-0" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-0">
+Etat des lieux du Drive</label><div class="sd-tab-content docutils">
+<div class="figure align-default" id="drive-overview">
+<a class="reference internal image-reference" href="../../_images/Drive-capture-02-24.png"><img alt="../../_images/Drive-capture-02-24.png" src="../../_images/Drive-capture-02-24.png" style="width: 100%;" /></a>
+<p class="caption"><span class="caption-number">Fig. 1 </span><span class="caption-text">Capture d’écran du drive de la brasserie (18/02/2024)</span><a class="headerlink" href="#drive-overview" title="Permalink to this image">#</a></p>
+</div>
+</div>
+<input id="sd-tab-item-1" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-1">
+Analyse</label><div class="sd-tab-content docutils">
+La <a class="reference internal" href="#drive-overview"><span class="std std-numref">Fig. 1</span></a> nous montre l’architecture du <em>drive de la brasserie</em>. Le drive nous permet entre autre d’avoir un point de stockage et de référence unique pour tout les documents générés par notre activité brassicole. Je trouve personellement que ca marche plutôt bien même si on peut remarquer que Paulo prend en charge l’implementation de la majorité des contenus (ce qui n’est pas optimale). Ce qui me frustre un peu avec cette méthode c’est que les fichiers sont en dormance: Ils sont là, ils existent, mais ils ne sont pas valorisés.</div>
+<input id="sd-tab-item-2" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-2">
+Récupération et mise en lien des contenus</label><div class="sd-tab-content docutils">
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Expliquer comment le site incorpore les documents (notemment ceux présents dans l’onglet fiche de suivit), et les affiches pour que les gens y aient acces en un clique au lieu d’aller chercher dans le drive</p>
+</div>
+</div>
+<input id="sd-tab-item-3" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-3">
+Résultat</label><div class="sd-tab-content docutils">
+<p>Expliquer ici la Plus value apporté par le site</p>
+<ul class="simple">
+<li>Arborescence …</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="a-un-ecocysteme-de-logiciels-libres">
+<h3>A un Ecocysteme de logiciels libres<a class="headerlink" href="#a-un-ecocysteme-de-logiciels-libres" title="Permalink to this heading">#</a></h3>
+<p>Quand vous être l’heureux propriétaire d’un site internet …</p>
+<div class="section" id="lucidchart">
+<h4>LucidChart<a class="headerlink" href="#lucidchart" title="Permalink to this heading">#</a></h4>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-tab-item docutils">
+<p class="sd-tab-label rubric">Mind-Map Lucidchart</p>
+<div class="sd-tab-content docutils">
+<div style="width: 100%; height: 720px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:100%; height:720px" src="https://lucid.app/documents/embedded/b069cdf2-36ab-4d37-b3f1-9b8ef7869d5d" id="NPPbc4pWHyTw"></iframe></div>
+</div>
+</div>
+<div class="sd-tab-item docutils">
+<p class="sd-tab-label rubric">Avantages</p>
+<div class="sd-tab-content docutils">
+<ul class="simple">
+<li>Permet les interactions a distance, ce qui fluidifie le processus de réflexion collective et diminue les charges d’organisation d’évenements.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
+#### Frama
+
+##### Framapad
+
+- [Site](https://framapad.org/abc/fr/)
+
+
+
+### Aux ressources d&#39;Internet
+
+
+```{admonition} Le concept d&#39;API
+:class: tip
+
+Une API (application programming interface ou « interface de programmation d&#39;application ») est une interface logicielle qui permet de « connecter » un logiciel ou un service à un autre logiciel ou service afin d&#39;échanger des données et des fonctionnalités.
+
+```
+
+#### Little Bock
+
+- [Lien vers le site](https://www.littlebock.fr/)
+
+Ce site ... 
+
+API qui permet d&#39;obtenir tout les styles de bières (cf [lien](https://www.littlebock.fr/styles-bieres/)), mais dont l&#39;accés est payant (20 euros par an).
+
+```{note}
+
+Discuter ensemble si cela vaut le coup, ou pourquoi pas essayer de créer notre propre version.
+
+
+```
+
+- Tutot Youtube sur comment créer une recette [Youtube](https://www.youtube.com/watch?v=u8y4CTl56PU)
+
+## Un Outil de Communication
+
+### Un Journal
+</pre></div>
+</div>
+</div>
+</div>
+</div>
 <div class="toctree-wrapper compound">
 </div>
 </div>
@@ -529,6 +709,27 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#un-outil-connecte">Un Outil Connécté</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#au-drive-de-la-brasserie">au Drive de la Brasserie</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a-un-ecocysteme-de-logiciels-libres">A un Ecocysteme de logiciels libres</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#lucidchart">LucidChart</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
