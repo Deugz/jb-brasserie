@@ -21,3 +21,10 @@ Peut etre les classer en fonction de leur type
 
 ```
 
+Pour chaque bière vous trouverez les différentes versions avec:
+- Leur étiquette
+- La recette
+- La fiche de brassage
+- Leur cout de revient
+- plus ?
+

@@ -171,8 +171,6 @@ Expliquer ici la Plus value apporté par le site
 ::::
 
 
-
-
 ### A un Ecocysteme de logiciels libres
 
 Quand vous être l'heureux propriétaire d'un site internet ... 
@@ -181,18 +179,28 @@ Quand vous être l'heureux propriétaire d'un site internet ...
 
 ::::{grid} 2
 
-:::{}
+:::{grid-item}
+:columns: 9
 
+> Explication de ce que cela peut apporter
 
-```{note}
+:::
 
-Card vers le site a droite et explication a gauche
-- version gratuite ou payante
+:::{grid-item-card}
+:columns: 3
 
+```{image} Docs/Lucidchart-logo.jpg
+:width: 100%
+:align: center
 
 ```
 
-::::::{dropdown} Exemple avec la **fete de la brasserie**
+
+:::
+
+::::
+
+::::::{dropdown} Exemple:  **fete de la brasserie**
 
 ::::{tab-set}
 

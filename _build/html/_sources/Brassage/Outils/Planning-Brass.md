@@ -16,3 +16,12 @@ En lecture seul, penser a mettre un lien direct pour la modification:
 
 ::::
 
+## Proposer un Brassage ?
+
+```{note}
+
+Réservé aux adhérents. Quel mécanisme on utilise pour suggérer un brassage. Quels sont les conditions a remplir ?
+
+
+```
+

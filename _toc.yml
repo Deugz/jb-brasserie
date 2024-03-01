@@ -17,20 +17,15 @@ parts:
       sections:
       - file: Asso/Statuts/Statuts_Main
       - file: Asso/Histoire/Histoire
+      - file: Asso/Reglement-interieur
     - file: Asso/Membres/Membres_Main
       sections:
       - file: Asso/Membres/Elus
+      - file: Asso/Reunions/Reunions_main
         sections:
-        - file: Asso/Membres/Bureau/Alex/Alex
-        - file: Asso/Membres/Bureau/Jimi/Jimi
-        - file: Asso/Membres/Bureau/Paulo/Paulo        
-        - file: Asso/Membres/Bureau/Vince/Vince
-      - file: Asso/Membres/Adhérents
-      - file: Asso/Membres/Rejoins
-    - file: Asso/Reunions/Reunions_main
-      sections:
-      - file: Asso/Reunions/Compte-Rendus/Date1
-  - caption: 💪 Le Brassage
+        - file: Asso/Reunions/Compte-Rendus/Date1
+    - file: Asso/Membres/Rejoins
+  - caption: 💪 La Brasserie
     chapters:  
     - file: Brassage/Brassage_Main
       sections:
@@ -73,6 +68,7 @@ parts:
       - file: Les_Bieres/Liste/PeuchEyre/PeuchEyre
       - file: Les_Bieres/Liste/SanginEyre/SanginEyre
       - file: Les_Bieres/Liste/Triple-Rouste/Triple-Rouste
+      - file: Les_Bieres/Liste/Test/Test
     - file: Les_Bieres/Magasin-bieres
       sections:
       - file: Les_Bieres/Commandes

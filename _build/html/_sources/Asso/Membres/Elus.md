@@ -9,3 +9,41 @@ Un espace que chacun peut utiliser pour partager les document sur lequel il trav
 On peut aussi utiliser cet espace comme un outil démocratique pour permettre aux adhérents de poser des question et d'interagir directement avec chacun d'entre nous
 
 ```
+
+## Président 
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> On explique ici les missions du président
+
+:::
+
+:::{grid-item-card}
+:columns:
+**Paulo ?**
+^^^
+
+```{note}
+
+Lien vers la fiche du membre qui contient les infos de contact etc
+
+
+```
+
+:::
+
+### Vice Président
+
+
+
+## Trésorier
+
+### Vice 
+
+
+## Secrétaire
+
+### Vice secrétaire
